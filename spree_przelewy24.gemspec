@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.author            = 'Grzegorz Brzezinka'
   s.email             = 'info@matfiz.com.pl'
-  s.homepage          = 'https://github.com/micsmi2959/spree_przelewy24'
+  s.homepage          = 'https://github.com/matfiz/spree_przelewy24'
   # s.rubyforge_project = 'actionmailer'
 
   s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']
@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
 
-  #s.add_dependency('spree_core', '>= 1.0')
+  s.add_dependency('spree_core')
   s.add_dependency('haml')
 end
